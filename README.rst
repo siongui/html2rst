@@ -7,6 +7,11 @@ Development Environment: `Ubuntu 16.04 LTS`_ and `Go 1.6.2`_.
 Goal: Convert HTML_ to reStructuredText_ in Golang_. (not fully implemented)
 
 
+Usage
++++++
+
+See `example <usage/example.go>`_
+
 UNLICENSE
 +++++++++
 
