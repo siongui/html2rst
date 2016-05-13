@@ -42,6 +42,12 @@ See `example <usage/example.go>`_:
   }
 
 
+Deploy on `Google App Engine Go`_
++++++++++++++++++++++++++++++++++
+
+See `gae <gae/>`_ directory.
+
+
 UNLICENSE
 +++++++++
 
@@ -62,4 +68,5 @@ References
 .. _Go 1.6.2: https://golang.org/dl/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _HTML: https://www.google.com/search?q=HTML
+.. _Google App Engine Go: https://cloud.google.com/appengine/docs/go/
 .. _UNLICENSE: http://unlicense.org/
