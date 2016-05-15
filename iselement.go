@@ -30,6 +30,22 @@ func isOlElement(n *html.Node) bool {
 	return n.Type == html.ElementNode && n.Data == "ol"
 }
 
+func isTableElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "table"
+}
+
+func isTbodyElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "tbody"
+}
+
+func isTrElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "tr"
+}
+
+func isTdElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "td"
+}
+
 func isTextNode(n *html.Node) bool {
 	return n.Type == html.TextNode
 }

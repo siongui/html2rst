@@ -49,6 +49,9 @@ func traverse(n *html.Node) string {
 	if isOlElement(n) {
 		return ol2rst(n)
 	}
+	if isTableElement(n) {
+		return table2rst(n)
+	}
 	if isScriptElement(n) {
 		return ""
 	}
