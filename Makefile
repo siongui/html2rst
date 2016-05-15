@@ -19,6 +19,8 @@ fmt:
 install:
 	@echo "\033[92mInstalling golang.org/x/net/html ...\033[0m"
 	go get -u golang.org/x/net/html
+	@echo "\033[92mInstalling github.com/djimenez/iconv-go ...\033[0m"
+	go get -u github.com/djimenez/iconv-go
 
 self:
 	@echo "\033[92mInstalling github.com/siongui/html2rst ...\033[0m"

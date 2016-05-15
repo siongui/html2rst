@@ -1,5 +1,5 @@
 export PATH := $(PATH):$(realpath ../../go_appengine/)
-PROJECT_DIR=gae/
+PROJECT_DIR=$(CURDIR)
 PROJECT_ID=golden-operator-130720
 PROJECT_VERSION=html2rst
 
