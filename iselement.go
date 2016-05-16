@@ -46,6 +46,14 @@ func isTdElement(n *html.Node) bool {
 	return n.Type == html.ElementNode && n.Data == "td"
 }
 
+func isTitleElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "title"
+}
+
+func isMetaElement(n *html.Node) bool {
+	return n.Type == html.ElementNode && n.Data == "meta"
+}
+
 func isTextNode(n *html.Node) bool {
 	return n.Type == html.TextNode
 }
